@@ -92,6 +92,9 @@ define([], function() {
           EmptyFieldErrorMessage: "This field cannot be empty"
         },
         DataSources: {
+          AzureCognitiveSearch:{
+            SourceName:  "Azure Cognitive Search"
+          },
           SharePointSearch: {
             SourceName:  "SharePoint Search",
             SourceConfigurationGroupName: "Source configuration",

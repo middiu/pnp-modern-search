@@ -91,6 +91,9 @@ declare interface ICommonStrings {
       EmptyFieldErrorMessage: string;
     },
     DataSources: {
+      AzureCognitiveSearch: {
+        SourceName: string;
+      },
       SharePointSearch: {
         SourceName: string;
         SourceConfigurationGroupName: string;
